@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File IO Assignment", "..\Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datetime Assignment", "..\Datetime Assignment\Datetime Assignment.csproj", "{27F7845B-C0F6-4E56-8E1C-20CF5589680A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor Chaining", "..\Constructor Chaining\Constructor Chaining.csproj", "{91190FE6-EB0A-4FE2-8686-7C31491FA7D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{27F7845B-C0F6-4E56-8E1C-20CF5589680A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27F7845B-C0F6-4E56-8E1C-20CF5589680A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27F7845B-C0F6-4E56-8E1C-20CF5589680A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91190FE6-EB0A-4FE2-8686-7C31491FA7D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91190FE6-EB0A-4FE2-8686-7C31491FA7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91190FE6-EB0A-4FE2-8686-7C31491FA7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91190FE6-EB0A-4FE2-8686-7C31491FA7D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
