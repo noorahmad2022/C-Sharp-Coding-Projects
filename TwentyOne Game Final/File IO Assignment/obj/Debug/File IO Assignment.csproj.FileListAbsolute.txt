@@ -1,0 +1,8 @@
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\File IO Assignment\bin\Debug\File IO Assignment.exe.config
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\File IO Assignment\bin\Debug\File IO Assignment.exe
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\File IO Assignment\bin\Debug\File IO Assignment.pdb
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\File IO Assignment\obj\Debug\File IO Assignment.csproj.AssemblyReference.cache
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\File IO Assignment\obj\Debug\File IO Assignment.csproj.SuggestedBindingRedirects.cache
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\File IO Assignment\obj\Debug\File IO Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\File IO Assignment\obj\Debug\File IO Assignment.exe
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\File IO Assignment\obj\Debug\File IO Assignment.pdb

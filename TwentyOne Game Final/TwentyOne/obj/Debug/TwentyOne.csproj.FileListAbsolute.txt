@@ -6,3 +6,11 @@ C:\Users\Noorahmad\Desktop\Web Development Course\C#\TwentyOne Game\TwentyOne\ob
 C:\Users\Noorahmad\Desktop\Web Development Course\C#\TwentyOne Game\TwentyOne\obj\Debug\TwentyOne.csproj.CoreCompileInputs.cache
 C:\Users\Noorahmad\Desktop\Web Development Course\C#\TwentyOne Game\TwentyOne\obj\Debug\TwentyOne.exe
 C:\Users\Noorahmad\Desktop\Web Development Course\C#\TwentyOne Game\TwentyOne\obj\Debug\TwentyOne.pdb
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\TwentyOne\bin\Debug\TwentyOne.exe.config
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\TwentyOne\bin\Debug\TwentyOne.exe
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\TwentyOne\bin\Debug\TwentyOne.pdb
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\TwentyOne\obj\Debug\TwentyOne.csproj.AssemblyReference.cache
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\TwentyOne\obj\Debug\TwentyOne.csproj.SuggestedBindingRedirects.cache
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\TwentyOne\obj\Debug\TwentyOne.csproj.CoreCompileInputs.cache
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\TwentyOne\obj\Debug\TwentyOne.exe
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\TwentyOne\obj\Debug\TwentyOne.pdb
