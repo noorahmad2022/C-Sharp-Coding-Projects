@@ -1,0 +1,8 @@
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\Datetime Assignment\bin\Debug\Datetime Assignment.exe.config
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\Datetime Assignment\bin\Debug\Datetime Assignment.exe
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\Datetime Assignment\bin\Debug\Datetime Assignment.pdb
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\Datetime Assignment\obj\Debug\Datetime Assignment.csproj.AssemblyReference.cache
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\Datetime Assignment\obj\Debug\Datetime Assignment.csproj.SuggestedBindingRedirects.cache
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\Datetime Assignment\obj\Debug\Datetime Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\Datetime Assignment\obj\Debug\Datetime Assignment.exe
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\TwentyOne Game Final\Datetime Assignment\obj\Debug\Datetime Assignment.pdb

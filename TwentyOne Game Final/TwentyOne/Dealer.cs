@@ -21,6 +21,7 @@ namespace TwentyOne
 
             using (StreamWriter file = new StreamWriter(@"C:\Users\Public\Documents\log.txt", true))
             {
+               
                 file.WriteLine(card);
             }
             Deck.Cards.RemoveAt(0);

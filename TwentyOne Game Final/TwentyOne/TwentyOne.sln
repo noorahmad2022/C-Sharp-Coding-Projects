@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwentyOne", "TwentyOne.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File IO Assignment", "..\File IO Assignment\File IO Assignment.csproj", "{341E82E2-98ED-45E8-88A0-43E175C21997}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datetime Assignment", "..\Datetime Assignment\Datetime Assignment.csproj", "{27F7845B-C0F6-4E56-8E1C-20CF5589680A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{341E82E2-98ED-45E8-88A0-43E175C21997}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{341E82E2-98ED-45E8-88A0-43E175C21997}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{341E82E2-98ED-45E8-88A0-43E175C21997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F7845B-C0F6-4E56-8E1C-20CF5589680A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F7845B-C0F6-4E56-8E1C-20CF5589680A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F7845B-C0F6-4E56-8E1C-20CF5589680A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F7845B-C0F6-4E56-8E1C-20CF5589680A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
