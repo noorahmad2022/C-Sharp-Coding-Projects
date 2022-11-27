@@ -1,0 +1,16 @@
+D:\Training\Web Development Course\C#\Basic_C#_Programs\Exception Assignment\bin\Debug\Exception Assignment.exe.config
+D:\Training\Web Development Course\C#\Basic_C#_Programs\Exception Assignment\bin\Debug\Exception Assignment.exe
+D:\Training\Web Development Course\C#\Basic_C#_Programs\Exception Assignment\bin\Debug\Exception Assignment.pdb
+D:\Training\Web Development Course\C#\Basic_C#_Programs\Exception Assignment\obj\Debug\Exception Assignment.csproj.AssemblyReference.cache
+D:\Training\Web Development Course\C#\Basic_C#_Programs\Exception Assignment\obj\Debug\Exception Assignment.csproj.SuggestedBindingRedirects.cache
+D:\Training\Web Development Course\C#\Basic_C#_Programs\Exception Assignment\obj\Debug\Exception Assignment.csproj.CoreCompileInputs.cache
+D:\Training\Web Development Course\C#\Basic_C#_Programs\Exception Assignment\obj\Debug\Exception Assignment.exe
+D:\Training\Web Development Course\C#\Basic_C#_Programs\Exception Assignment\obj\Debug\Exception Assignment.pdb
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\Exception Handling Assignment\bin\Debug\Exception Assignment.exe.config
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\Exception Handling Assignment\bin\Debug\Exception Assignment.exe
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\Exception Handling Assignment\bin\Debug\Exception Assignment.pdb
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\Exception Handling Assignment\obj\Debug\Exception Assignment.csproj.AssemblyReference.cache
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\Exception Handling Assignment\obj\Debug\Exception Assignment.csproj.SuggestedBindingRedirects.cache
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\Exception Handling Assignment\obj\Debug\Exception Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\Exception Handling Assignment\obj\Debug\Exception Assignment.exe
+C:\Users\Noorahmad\Desktop\Web Development Course\C#\C-Sharp-Coding-Projects\Exception Handling Assignment\obj\Debug\Exception Assignment.pdb
