@@ -61,11 +61,11 @@ namespace CarInsurance.Controllers
                 {
                     insurance.Quote = defaultQuote += 100;
                 }
-                if (userAge > 18 && userAge <= 25)
+                else if (userAge > 18 && userAge <= 25)
                 {
                     insurance.Quote = defaultQuote += 50;
                 }
-                if (userAge > 25)
+                else if (userAge > 25)
                 {
                     insurance.Quote = defaultQuote += 25;
                 }
@@ -73,7 +73,7 @@ namespace CarInsurance.Controllers
                 {
                     insurance.Quote = defaultQuote += 25;
                 }
-                if (insurance.CarYear >= 2015)
+                else if (insurance.CarYear >= 2015)
                 {
                     insurance.Quote = defaultQuote += 25;
                 }
@@ -81,7 +81,7 @@ namespace CarInsurance.Controllers
                 {
                     insurance.Quote = defaultQuote += 25;
                 }
-                if (insurance.CarMake == "Porsche" && insurance.CarMake == "911 Carrera")
+                else if (insurance.CarMake == "Porsche" && insurance.CarMake == "911 Carrera")
                 {
                     insurance.Quote = defaultQuote += 50;
                 }
