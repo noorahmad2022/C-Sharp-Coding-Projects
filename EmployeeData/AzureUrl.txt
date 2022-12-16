@@ -1,0 +1,5 @@
+https://academyoflearningfinal.azurewebsites.net
+
+
+
+Data Source=tcp:employeedatadbserver.database.windows.net,1433;Initial Catalog=Employees;User Id=noorahmad@employeedatadbserver;Password=Abc123@#

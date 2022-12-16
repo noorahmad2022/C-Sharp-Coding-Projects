@@ -1,0 +1,84 @@
+﻿@using EmployeeData.Models.DbEntities
+@model EmployeeData.Models.DbEntities.Employee
+
+@{
+    ViewData["Title"] = "Edit Employee";
+    var errorMessage = TempData["errorMessage"]?.ToString();
+}
+
+<h3>@ViewData["Title"]</h3>
+<hr/>
+@if (!string.IsNullOrWhiteSpace(@errorMessage))
+{
+    <div class="alert alert-danger">
+        <strong> Error! </strong>@errorMessage
+        <button type="button" class="btn-close float-end" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+
+<form action="Edit" method="post" autocomplete="off">
+
+  <div class="mb-3">
+    <label class="form-label">ID</label>
+    <input type="text" class="form-control" asp-for="Id" readonly>
+    <span asp-validation-for="firstName" class="text-danger"></span>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">First Name</label>
+    <input type="text" class="form-control" asp-for="firstName">
+    <span asp-validation-for="firstName" class="text-danger"></span>
+  </div>
+  
+  <div class="mb-3">
+    <label class="form-label">Last Name</label>
+    <input type="text" class="form-control" asp-for="lastName">
+    <span asp-validation-for="lastName" class="text-danger"></span>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Date Of Birth</label>
+    <input type="date" class="form-control" asp-for="dateOfBirth">
+    <span asp-validation-for="dateOfBirth" class="text-danger"></span>
+  </div>
+
+    <div class="mb-3">
+    <label class="form-label">Status</label>
+    <select asp-for="Status" class="form-control"asp-items="Html.GetEnumSelectList<Status>()">
+        <option value="">Please Select the Gender</option>
+        </select>
+    <span asp-validation-for="Status" class="text-danger"></span>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Email Address</label>
+    <input type="email" class="form-control" asp-for="Email">
+    <span asp-validation-for="Email" class="text-danger"></span>
+    <div id="emailHelp" class="form-text">Please enter the valid email address.</div>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Phone Number</label>
+    <input type="number" class="form-control" asp-for="contactNumber">
+    <span asp-validation-for="contactNumber" class="text-danger"></span>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Salary</label>
+    <div class="input-group">
+        <span class="input-group-text">$</span>
+        <input type="text" class="form-control" asp-for="Salary">
+        <span asp-validation-for="Salary" class="text-danger"></span>
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-success">Update</button>
+
+</form>
+
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

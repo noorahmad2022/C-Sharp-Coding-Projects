@@ -1,0 +1,54 @@
+﻿@using EmployeeData.Models.DbEntities
+@model EmployeeData.Models.DbEntities.Employee
+
+@{
+    ViewData["Title"] = "Employee Information";
+}
+
+<h3>@ViewData["Title"]</h3>
+<hr/>
+
+<form action="View" method="get" autocomplete="off">
+
+    <div class="col-4">
+            <table class="table">
+  <tbody>
+    <tr>
+      <th>ID</th>
+      <td>@Model.Id</td>
+    </tr>
+    <tr>
+      <th>First Name</th>
+      <td>@Model.firstName</td>
+    </tr>
+    <tr>
+      <th>Last Name</th>
+      <td>@Model.lastName</td>
+    </tr>
+    <tr>
+      <th>Date of Birth</th>
+      <td>@Model.dateOfBirth.ToString("MMMM dd, yyyy")</td>
+    </tr>
+    <tr>
+      <th>Status</th>
+      <td>@Model.Status</td>
+    </tr>
+    <tr>
+      <th>Email Address</th>
+      <td>@Model.Email</td>
+    </tr>
+    <tr>
+      <th>Phone Number</th>
+      <td>@Model.contactNumber</td>
+    </tr>
+    
+    <tr>
+      <th>Salary</th>
+      <td>$@Model.Salary</td>
+    </tr>
+
+  </tbody>
+</table>
+    <a class="btn btn-link float-end" asp-area="" asp-controller="Employee" asp-action="Index">Back</a>
+    </div>
+</form>

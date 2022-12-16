@@ -1,0 +1,88 @@
+﻿@*Initialize the employee model*@
+@model List<EmployeeData.Models.DbEntities.Employee>
+
+@{
+    ViewData["Title"] = "Employee List";
+
+    var SuccessMessage = TempData["SuccessMessage"]?.ToString();
+    var errorMessage = TempData["errorMessage"]?.ToString();
+}
+<h3>@ViewData["Title"]</h3>
+<hr />
+@if (!string.IsNullOrWhiteSpace(@SuccessMessage))
+{
+    <div class="alert alert-success">
+        <strong> Success! </strong>@SuccessMessage
+        <button type="button" class="btn-close float-end" data-bs-dismiss="alert"></button>
+    </div>
+}
+@if (!string.IsNullOrWhiteSpace(@errorMessage))
+{
+    <div class="alert alert-danger">
+        <strong> Error! </strong>@errorMessage
+        <button type="button" class="btn-close float-end" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<form>
+    @*<div class="d-grid d-md-flex justify-content-md-end">     //move the button to right*@
+    <div>
+        <a asp-area="" asp-controller="Employee" asp-action="Create" class="bi bi-person-plus-fill"> Add Employee</a>
+        <br>
+    </div>
+
+    <table class="table mt-3">
+        <thead class="thead-dark bg-light">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Full Name </th>
+                <th scope="col">Email Address</th>
+                <th scope="col">Phone Number</th>
+                <th scope="col">Date of Birth</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model != null && Model.Any())
+            {
+                @foreach(var employee in Model)
+                {
+                    <tr>
+                        <td>@employee.Id</td>
+                        <td>@employee.FullName</td>
+                        <td>@employee.Email</td>
+                        <td>@employee.contactNumber</td>
+
+                        <td>@employee.dateOfBirth.ToString("MMMM dd yyyy")</td>
+
+                        <td>
+
+                            <div class="dropdown-center">
+                                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Action
+                                  </button>
+                                  <ul class="dropdown-menu">
+                                    <li><a asp-controller="Employee" asp-action="View" asp-route-id="@employee.Id" class="dropdown-item"> <span class="bi bi-view-stacked"></span>  View</a></li>
+                                    <li><a asp-controller="Employee" asp-action="Edit" asp-route-id="@employee.Id" class="dropdown-item"><span class="bi bi-pencil-square"></span>  Edit</a></li>
+                                    <li><a asp-controller="Employee" asp-action="Delete" asp-route-id="@employee.Id" class="dropdown-item"><span class="bi bi-trash"></span>  Delete</a></li>
+                                  </ul>
+                            </div>
+                        </td>
+
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="6">    @* we have four colunm, change number based on column.*@
+                        <div>
+                            No Employee Found in the Database! Please click Add new employee.
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>
+

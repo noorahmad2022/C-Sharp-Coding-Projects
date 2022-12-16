@@ -1,0 +1,93 @@
+﻿@using ExpressTimezone;
+@using EmployeeData.Models;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to EMS</h1>
+    <p class="lead"> Welcome to Employee Management System in ASP.NET MVC with Entity Framework Code First. </p>
+
+    <p>This Web application Contain <b>Final Challege</b>, for C# and .NET Framework - Part2 training course <br> 
+</div>
+<div class="row mt-5">
+            
+    @*Date Time*@
+    <div class="card col-3">
+        <div class="card-header">
+            C# DateTime.Now Property
+        </div>
+        <div class="card-body">
+                <p class="card-title"><b>UTC Time</b></p>
+                <p class="card-text">
+                @{
+                    DateTime dateTimeNow = DateTime.Now;           // Current Date Time
+                    DateTime utcTime = TimeZoneInfo.ConvertTimeToUtc(dateTimeNow); // Convert Current Date Time to UTC
+                }
+                @utcTime    @*Display the UTC Time*@
+                </p>
+           
+                <p class="card-title"><b>Server Time</b></p>
+                <p class="card-text">
+                @{
+                    var serverTime = utcTime.UTCToSystemTime().ToShortTimeString();     // Convert UTC Time to Server or System Time with Short time format
+                }
+                @serverTime
+                </p>
+
+                <p class="card-title"><b>Canada Time</b></p>
+                <p class="card-text">
+                @{
+                    var utcDateTime = DateTime.UtcNow;
+                    var montrealTime = utcDateTime.UTCToRegionalTime("America/Montreal");   // Convert UTC Time to region "https://en.wikipedia.org/wiki/List_of_tz_database_time_zones"
+                    var vancouverTime = utcDateTime.UTCToRegionalTime("America/Vancouver");
+                }
+                <span>
+                    Montreal: @montrealTime.ToShortDateString()  @montrealTime.ToShortTimeString()
+                    Vancouver: @vancouverTime.ToString("MMM dd, yyyy hh:mm")                 
+                </span>
+        </div>
+    </div>
+
+
+    @*Event Handler*@
+
+    <div class="card col-3 ms-3">
+        <div class="card-header">
+            Event Handler
+        </div>
+        <div class="card-body">
+                <p class="card-title"><b></b></p>
+                <p class="card-text"> Event Handler is described by developed a simple caclulator </p>
+                <p>@Html.ActionLink("Open Calculator", "Index", "calc", null, new { @class = "btn btn-link" })</p>
+        </div>
+    </div>
+
+
+    @*Event Handler*@
+
+    <div class="card col-4 ms-3">
+        <div class="card-header">
+            Handler with Razor Pages
+        </div>
+        <div class="card-body">
+            <p class="card-title"><b></b></p>
+            <p class="card-text"> Define handler method as it relates to Razor Pages. Also, define these methods: OnPost() and OnGet() </p>
+
+            <form method="POST">
+                <label for="firstName">Type Your Name</label>
+                <input type="text" id="Name" placeholder="Your name goes here" name="Name" />
+                <input type="submit" />
+            </form>
+
+            <form action="#" method="post">
+                <input class="float-end mt-4" type="button" value="Click for POST Message" onclick="window.alert('Thanks For Click!');">
+            </form>
+
+        </div>
+    </div>
+
+
+
+
+</div>

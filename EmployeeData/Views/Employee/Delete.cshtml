@@ -1,0 +1,70 @@
+﻿@using EmployeeData.Models.DbEntities
+@model EmployeeData.Models.DbEntities.Employee
+
+@{
+    ViewData["Title"] = "Delete Employee";
+    var errorMessage = TempData["errorMessage"]?.ToString();
+}
+
+<h3>@ViewData["Title"]</h3>
+<hr/>
+@if (!string.IsNullOrWhiteSpace(@errorMessage))
+{
+    <div class="alert alert-danger">
+        <strong> Error! </strong>@errorMessage
+        <button type="button" class="btn-close float-end" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+
+<form action="Delete" method="post" autocomplete="off">
+
+  <div class="mb-3">
+    <label class="form-label">ID</label>
+    <input type="text" class="form-control" asp-for="Id" readonly>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">First Name</label>
+    <input type="text" class="form-control" asp-for="firstName"disabled>
+  </div>
+  
+  <div class="mb-3">
+    <label class="form-label">Last Name</label>
+    <input type="text" class="form-control" asp-for="lastName"disabled>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Date Of Birth</label>
+    <input type="date" class="form-control" asp-for="dateOfBirth"disabled>
+  </div>
+
+    <div class="mb-3">
+    <label class="form-label">Status</label>
+    <select asp-for="Status" class="form-control"asp-items="Html.GetEnumSelectList<Status>()"disabled>
+        <option value="">Please Select the Gender</option>
+        </select>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Email Address</label>
+    <input type="email" class="form-control" asp-for="Email"disabled>
+    <div id="emailHelp" class="form-text">Please enter the valid email address.</div>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Phone Number</label>
+    <input type="number" class="form-control" asp-for="contactNumber"disabled>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Salary</label>
+    <div class="input-group">
+        <span class="input-group-text">$</span>
+        <input type="text" class="form-control" asp-for="Salary"disabled>
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-danger" onclick="return function('Are you sure to Delete employee : @Model.FullName')">Delete</button>
+
+</form>

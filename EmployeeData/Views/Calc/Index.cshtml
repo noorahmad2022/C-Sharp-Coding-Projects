@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+
+<html>
+<head>
+</head>
+
+    <bod>
+        </br>
+        <div class="col-4">
+
+            @using (Html.BeginForm("Index", "calc", FormMethod.Post))
+            {
+                <div class="form-outline text-primary mb-4">
+                    <h2>Simple Calculator</h2>
+                </div>
+
+                <!-- First Number input -->
+                <div class="form-group mb-4">
+                    <label class="form-label" for="num1">First Number</label>
+                    <input type="text" id="num1" name="num1" class="form-control" value="@Model.num1" />
+
+                </div>
+
+                <!-- Second Number input -->
+                <div class="form-groupe mb-4">
+                    <label class="form-label" for="num2">Second Number</label>
+                    <input type="text" id="num2" name="num2" class="form-control" value="@Model.num2"/>
+                </div>
+
+                <!-- Result -->
+                <div style="margin-bottom:10px" class="form-group mb-4">
+                    <label class="form-label" for="result">Result</label>
+                    <input type="text" id="result" name="result" class="form-control" value="@Model.result" disabled />
+                </div>
+
+                <div>
+                    <button type="submit" class="btn btn-primary btn-block mb-4" id="add" value="add" name="calculate">+</button>
+                    <button type="submit" class="btn btn-primary btn-block mb-4" id="min" value="min" name="calculate">-</button>
+                    <button type="submit" class="btn btn-primary btn-block mb-4" id="sub" value="sub" name="calculate">*</button>
+                    <button type="submit" class="btn btn-primary btn-block mb-4" id="div" value="div" name="calculate">/</button>
+                    <a class="btn btn-link float-end" asp-area="" asp-controller="Home" asp-action="Index">Back</a>
+
+                </div>
+            }
+        </div>      
+    </bod>
+</html>
+
